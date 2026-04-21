@@ -19,20 +19,20 @@ Production-ready static landing page for Stamp Stories Visa Services.
 ## Deploy on GitHub Pages (Vyapaarx)
 
 ### Recommended repo name
-- `Vyapaarx.github.io`
+- `stamp-stories-visa-site`
 
 ### Steps
-1. Create a new public repository named `Vyapaarx.github.io` in the Vyapaarx account.
+1. Create a new public repository named `stamp-stories-visa-site` in the Vyapaarx account.
 2. Upload all project files from this folder to the repository root.
 3. Go to repository Settings -> Pages.
 4. Under Build and deployment, set Source to Deploy from a branch.
 5. Select Branch: `main` and Folder: `/ (root)` and save.
-6. Wait 1-3 minutes and open `https://vyapaarx.github.io/`.
+6. Wait 1-3 minutes and open `https://vyapaarx.github.io/stamp-stories-visa-site/`.
 
 ## Pre-Launch Checklist
 - Replace Instagram URL if needed
 - Verify phone and WhatsApp number
-- Submit `https://vyapaarx.github.io/sitemap.xml` in Google Search Console
+- Submit `https://vyapaarx.github.io/stamp-stories-visa-site/sitemap.xml` in Google Search Console
 - Test on mobile (Chrome + Safari)
 
 ## Notes
