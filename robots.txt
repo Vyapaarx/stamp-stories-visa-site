@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vyapaarx.github.io/stamp-stories-visa-site/sitemap.xml
+Sitemap: https://www.stampstories.in/sitemap.xml
