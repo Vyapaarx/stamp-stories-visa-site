@@ -1,0 +1,52 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="145" fill="white" stroke="#f0f0f0" stroke-width="2"/>
+  
+  <!-- Globe grid -->
+  <g stroke="#c5d86d" stroke-width="1.5" fill="none">
+    <!-- Vertical lines -->
+    <path d="M 110 90 Q 110 150 115 210"/>
+    <path d="M 140 85 Q 140 150 140 215"/>
+    <path d="M 170 85 Q 170 150 165 215"/>
+    <path d="M 200 90 Q 200 150 195 210"/>
+    
+    <!-- Horizontal curved lines -->
+    <ellipse cx="150" cy="110" rx="40" ry="15"/>
+    <ellipse cx="150" cy="150" rx="50" ry="25"/>
+    <ellipse cx="150" cy="190" rx="40" ry="15"/>
+    
+    <!-- Dome arcs -->
+    <path d="M 110 150 Q 150 90 190 150"/>
+    <path d="M 115 160 Q 150 105 185 160"/>
+  </g>
+  
+  <!-- Left orbital ring -->
+  <ellipse cx="150" cy="150" rx="65" ry="35" fill="none" stroke="#0f3a7d" stroke-width="4" transform="rotate(-25 150 150)"/>
+  
+  <!-- Right orbital ring -->
+  <ellipse cx="150" cy="150" rx="70" ry="40" fill="none" stroke="#0f3a7d" stroke-width="4" transform="rotate(30 150 150)"/>
+  
+  <!-- Airplane -->
+  <g transform="translate(185, 120)">
+    <!-- Fuselage -->
+    <circle cx="0" cy="0" r="5" fill="#0f3a7d"/>
+    <path d="M -3 0 L -15 -2 L -12 0 L -15 2 Z" fill="#0f3a7d"/>
+    
+    <!-- Wings -->
+    <rect x="-2" y="-8" width="4" height="16" fill="#0f3a7d"/>
+    
+    <!-- Tail -->
+    <polygon points="5,0 12,-3 12,3" fill="#0f3a7d"/>
+  </g>
+  
+  <!-- STAMP text -->
+  <text x="150" y="235" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#0f3a7d" letter-spacing="2">STAMP</text>
+  
+  <!-- STORIES text -->
+  <text x="150" y="258" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#0f3a7d" letter-spacing="1">STORIES</text>
+  
+  <!-- Small star -->
+  <g transform="translate(208, 250)">
+    <path d="M 0 -4 L 1 -1 L 4 0 L 1 1 L 0 4 L -1 1 L -4 0 L -1 -1 Z" fill="#0f3a7d"/>
+  </g>
+</svg>
